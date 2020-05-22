@@ -2,7 +2,7 @@
     "name": "java-colored-text-printing-extension",
     "displayName": "java colored sysout",
     "description": "rgb colored print statements shortcuts for java",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "Aashish",
     "icon": "icon.png",
     "repository": {
