@@ -2,56 +2,55 @@
   "Java Blue Sysout": {
     "prefix": "printblue",
     "body": [
-      "void printblue(String str){",
+      "static void printblue(String str){",
       "System.out.println(\"\\u001B[34m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for blue"
+    "description": "adds method for blue"
   },
   "Java Green Sysout": {
     "prefix": "printgreen",
-    // "body": "System.out.println(\"\\u001B[32m\"+\"\"+ \"\\u001B[0m\");",
     "body": [
-      "void printgreen(String str){",
+      "static void printgreen(String str){",
       "System.out.println(\"\\u001B[32m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for green"
+    "description": "adds method for green"
   },
   "Java Red Sysout": {
     "prefix": "printred",
     "body": [
-      "void printred(String str){",
+      "static void printred(String str){",
       "System.out.println(\"\\u001B[31m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for green"
+    "description": "adds method for green"
   },
   "Java yellow Sysout": {
     "prefix": "printyellow",
     "body": [
-      "void printyellow(String str){",
+      "static void printyellow(String str){",
       "System.out.println(\"\\u001B[33m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for yellow"
+    "description": "adds method for yellow"
   },
   "Java purple Sysout": {
     "prefix": "printpurple",
     "body": [
-      "void printpurple(String str){",
+      "static void printpurple(String str){",
       "System.out.println(\"\\u001B[35m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for purple"
+    "description": "adds method for purple"
   },
   "Java cyan Sysout": {
     "prefix": "printcyan",
     "body": [
-      "void printcyan(String str){",
+      "static void printcyan(String str){",
       "System.out.println(\"\\u001B[36m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds sysout for cyan"
+    "description": "adds method for cyan"
   },
 }
