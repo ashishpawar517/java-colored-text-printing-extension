@@ -2,19 +2,56 @@
   "Java Blue Sysout": {
     "prefix": "printblue",
     "body": [
-      "System.out.println(\"\\u001B[34m\"+\"\"+ \"\\u001B[0m\");"
+      "void printblue(String str){",
+      "System.out.println(\"\\u001B[34m\"+str+ \"\\u001B[0m\");",
+      "}"
     ],
     "description": "adds sysout for blue"
   },
   "Java Green Sysout": {
     "prefix": "printgreen",
-    "body": "System.out.println(\"\\u001B[32m\"+\"\"+ \"\\u001B[0m\");",
+    // "body": "System.out.println(\"\\u001B[32m\"+\"\"+ \"\\u001B[0m\");",
+    "body": [
+      "void printgreen(String str){",
+      "System.out.println(\"\\u001B[32m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
     "description": "adds sysout for green"
   },
-
   "Java Red Sysout": {
     "prefix": "printred",
-    "body": "System.out.println(\"\\u001B[31m\"+\"\"+ \"\\u001B[0m\");",
+    "body": [
+      "void printred(String str){",
+      "System.out.println(\"\\u001B[31m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
     "description": "adds sysout for green"
+  },
+  "Java yellow Sysout": {
+    "prefix": "printyellow",
+    "body": [
+      "void printyellow(String str){",
+      "System.out.println(\"\\u001B[33m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds sysout for yellow"
+  },
+  "Java purple Sysout": {
+    "prefix": "printpurple",
+    "body": [
+      "void printpurple(String str){",
+      "System.out.println(\"\\u001B[35m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds sysout for purple"
+  },
+  "Java cyan Sysout": {
+    "prefix": "printcyan",
+    "body": [
+      "void printcyan(String str){",
+      "System.out.println(\"\\u001B[36m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds sysout for cyan"
   },
 }
