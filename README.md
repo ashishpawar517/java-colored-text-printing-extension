@@ -16,10 +16,11 @@
 - call the method wherever in main.
 
 
-![screenshot](demo_coloring.png)
+![screenshot](screenshot1.png)
 
-![scrrenshot-2](sysout_2.png)
+![scrrenshot-2](screenshot2.png)
 >  ANSI escape codes for Reference
+
 ```java 
 public static final String ANSI_RESET = "\u001B[0m";
 public static final String ANSI_RED = "\u001B[31m";
@@ -42,9 +43,12 @@ Initial release with three colors only
 ### 1.0.3
 
 - added 7 colors .
-- method signature as static. 
+- method signature as static.
 - readme updated.
 
+### 1.0.4
 
+- added 3 bright colors.
+- added magenta color.
 
 ## **Enjoy!** 👍

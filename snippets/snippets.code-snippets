@@ -24,7 +24,7 @@
       "System.out.println(\"\\u001B[31m\"+str+ \"\\u001B[0m\");",
       "}"
     ],
-    "description": "adds method for green"
+    "description": "adds method for red"
   },
   "Java yellow Sysout": {
     "prefix": "printyellow",
@@ -53,4 +53,43 @@
     ],
     "description": "adds method for cyan"
   },
+
+  "Java mageneta Sysout": {
+    "prefix": "printmagenta",
+    "body": [
+      "static void printmagenta(String str){",
+      "System.out.println(\"\\u001b[35m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds method for magenta"
+  },
+
+  "Java Bright Blue Sysout": {
+    "prefix": "printbluebright",
+    "body": [
+      "static void printblue_bright(String str){",
+      "System.out.println(\"\\u001B[34m;1m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds method for bright blue"
+  },
+  "Java Bright Green Sysout": {
+    "prefix": "printgreenbright",
+    "body": [
+      "static void printgreen_bright(String str){",
+      "System.out.println(\"\\u001B[32m;1m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds method for bright green"
+  },
+  "Java Bright Red Sysout": {
+    "prefix": "printredbright",
+    "body": [
+      "static void printred_bright(String str){",
+      "System.out.println(\"\\u001B[31m;1m\"+str+ \"\\u001B[0m\");",
+      "}"
+    ],
+    "description": "adds method for bright red"
+  },
+
 }
