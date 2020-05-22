@@ -127,4 +127,4 @@ Initial release with three colors only
 - Bold color fix and readme update
 
 ## **Enjoy!** 👍 
-_FYI I only use bright colors printblue_brint() is my fav 💙_
+_FYI I only use bright colors printblue_bright() is my fav 💙_
