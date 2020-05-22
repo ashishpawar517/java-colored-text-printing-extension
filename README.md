@@ -122,7 +122,7 @@ Initial release with three colors only
 - added 3 bright colors.
 - added magenta color.
 
-### 1.0.5
+### 1.0.6
 
 - Bold color fix and readme update
 
